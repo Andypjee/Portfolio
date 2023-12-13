@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    background-color: #395A4A;
+}
+/* begin van de header */
+header{
+   display: flex;
+    background-color: #516449;
+    width: 100vw;
+    height: 105px;
+}
+nav{
+    display: flex;
+    justify-content: left;
+    float: right;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-left: 520px;
+}
+nav div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 150px;
+    height: 50px;
+    background-color: #4c6143;
+    border-radius: 10px;
+}
+nav a{
+    text-decoration: none;
+}
+nav p{
+    color: white;
+    align-items: center;
+
+}
+section h1{
+    display: flex;
+    color: white;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (max-width: 500px) {
+    nav div{
+        display: none;
+    }
+    
+}
+.andy{
+    height: 250px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+.andyFoto{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px    ;
+}
+
+.introdutie{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 40px;
+}
+
+/* begin footer */
+footer{
+    display: flex;
+    background-color: #516449;
+    height: 100px;
+    justify-content: end;
+    margin-top: 20px;
+}
+footer div{
+  display: flex;
+    margin-top: 20px;
+    margin-right: 60px;
+    gap: 35px;
+}
+
