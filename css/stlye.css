@@ -47,17 +47,54 @@ section h1{
     align-items: center;
     margin-top: 35px;
 }
-section div{
+.intro div{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+    
+.landingPage{
+    display: flex;
+ justify-content: center;
+  background-image: url('img/backgroundLandingPage.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
 
 }
-@media screen and (max-width: 500px) {
-    nav div{
-        display: none;
-    }
-    
+.tekstVak{
+    height: 500px;
+    width: 800px;
+    background-color: #4c6143;
+    border-radius: 50px;
+    display: flex;
+    justify-content: end;
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.tekstVak p{
+   padding-top: 60px;
+}
+.tekstVak img{
+height: 270px;
+border-radius: 50px;
+display: flex;
+align-self: center;
+/* padding-right: 30px; */
+}
+.tekstLanding{
+    color: white;
+    justify-content: center;
+    align-self: center;
+    font-size: 45px;
+    text-align: center;
+    /* padding-left: 40px; */
+    margin-top: px;
+
 }
 .andy{
     height: 250px;
@@ -92,4 +129,9 @@ footer div{
     margin-right: 60px;
     gap: 35px;
 }
+@media screen and (max-width: 500px) {
+    nav div{
+        display: none;
+    }
 
+}
