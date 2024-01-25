@@ -1,137 +1,159 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
 }
-body{
-    background-color: #395A4A;
+body {
+  background-color: #395a4a;
 }
 /* begin van de header */
-header{
-   display: flex;
-    background-color: #516449;
-    width: 100vw;
-    height: 105px;
+header {
+  display: flex;
+  background-color: #516449;
+  width: 100vw;
+  height: 105px;
 }
-nav{
-    display: flex;
-    justify-content: left;
-    float: right;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-    margin-left: 520px;
+nav {
+  display: flex;
+  justify-content: left;
+  float: right;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  margin-left: 520px;
 }
-nav div{
+nav div {
   display: flex;
   align-items: center;
   justify-content: center;
-   width: 150px;
-    height: 50px;
-    background-color: #4c6143;
-    border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  background-color: #4c6143;
+  border-radius: 10px;
 }
-nav a{
-    text-decoration: none;
+nav a {
+  text-decoration: none;
 }
-nav p{
-    color: rgb(18, 177, 23);
-    align-items: center;
+nav p {
+  color: rgb(18, 177, 23);
+  align-items: center;
+}
+section h1 {
+  display: flex;
+  color: white;
+  width: 20vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+.intro div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-}
-section h1{
-    display: flex;
-    color: white;
-    width: 20vw;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
-}
-.intro div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-    
-.landingPage{
-    display: flex;
- justify-content: center;
-  background-image: url('img/backgroundLandingPage.png');
+.landingPage {
+  display: flex;
+  justify-content: center;
+  background-image: url("img/backgroundLandingPage.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 750px;
-
 }
-.tekstVak{
-    height: 500px;
-    width: 800px;
-    background-color: #4c6143;
-    border-radius: 50px;
-    display: flex;
-    justify-content: end;
-    margin-top: 125px;
-    display: flex;
-    justify-content: space-between;
-    justify-content: space-around;
+.tekstVak {
+  height: 500px;
+  width: 800px;
+  background-color: #4c6143;
+  border-radius: 50px;
+  display: flex;
+  justify-content: end;
+  margin-top: 125px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
 }
-.tekstVak p{
-   padding-top: 60px;
+.tekstVak p {
+  padding-top: 60px;
 }
-.tekstVak img{
-height: 270px;
-border-radius: 50px;
-display: flex;
-align-self: center;
-/* padding-right: 30px; */
+.tekstVak img {
+  height: 270px;
+  border-radius: 50px;
+  display: flex;
+  align-self: center;
 }
-.tekstLanding{
-    color: white;
-    justify-content: center;
-    align-self: center;
-    font-size: 45px;
-    text-align: center;
-    /* padding-left: 40px; */
-    margin-top: px;
-
+.tekstLanding {
+  color: white;
+  justify-content: center;
+  align-self: center;
+  font-size: 45px;
+  text-align: center;
 }
-.andy{
-    height: 250px;
-    border-radius: 25px;
-    display: flex;
-    justify-content: center;
+.andy {
+  height: 250px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
 }
-.andyFoto{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px    ;
+.andyFoto {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
-.introdutie{
-    display: flex;
-    justify-content: center;
-    color: white;
-    margin-top: 40px;
+.introdutie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.intro p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+.schoolProjecten {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: space-around;
+  margin-top: 125px;
+}
+
+.schoolProjectenImg {
+  display: flex;
+}
+.schoolProjectenTekst {
+  text-align: center;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.tekst {
+  font-size: 30px;
+  color: white;
 }
 
 /* begin footer */
-footer{
-    display: flex;
-    background-color: #516449;
-    height: 100px;
-    justify-content: end;
-    margin-top: 20px;
-}
-footer div{
+footer {
   display: flex;
-    margin-top: 20px;
-    margin-right: 60px;
-    gap: 35px;
+  background-color: #516449;
+  height: 100px;
+  justify-content: end;
+  margin-top: 20px;
+}
+footer div {
+  display: flex;
+  margin-top: 20px;
+  margin-right: 60px;
+  gap: 35px;
 }
 @media screen and (max-width: 500px) {
-    nav div{
-        display: none;
-    }
-
+  nav div {
+    display: none;
+  }
 }
