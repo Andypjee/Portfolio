@@ -8,6 +8,7 @@
   </head>
   <body>
     <header>
+      <!-- nav bar -->
       <section>
         <div><h1>Andy Wong</h1></div>
       </section>
@@ -18,12 +19,13 @@
         <a href="#school">
           <div><p>school</p></div></a
         >
-        <a href="">
+        <a href="#contact">
           <div><p>contact</p></div></a
         >
       </nav>
     </header>
     <main>
+      <!-- landing page -->
       <section class="landingPage">
         <div class="tekstVak">
           <div class="tekstLanding">
@@ -37,6 +39,7 @@
           <img src="img/Andy.png" alt="Andy" />
         </div>
       </section>
+     <!-- about page -->
       <section id="about" class="intro">
         <div class="andyFoto">
           <img class="andy" src="img/Andy.png" alt="Andy" />
@@ -50,10 +53,17 @@
           <p></p>
         </div>
       </section>
-
-      <section id="school" class="schoolProjecten">
+<!-- schoolProjecten -->
+     <!-- pink goose -->
+<section id="school" class="schoolProjecten">
         <div class="pinkGooseImg">
-         <a href="https://andypjee.github.io/PinkGoose/" target="_blank" rel="noopener noreferrer"> <img src="img/pinkGoose.png " alt="pingGoose" /></a>
+          <a
+            href="https://andypjee.github.io/PinkGoose/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="img/pinkGoose.png " alt="pingGoose"
+          /></a>
         </div>
         <div class="schoolProjectenTekst">
           <p class="tekst">
@@ -69,7 +79,7 @@
           </p>
         </div>
       </section>
-
+      <!-- project -->
       <section class="schoolProjecten">
         <div class="schoolProjectenTekst">
           <p class="tekst">
@@ -89,10 +99,16 @@
           <img src="img/project.png" alt="project" />
         </div>
       </section>
-
+<!-- mastermind -->
       <section class="schoolProjecten">
         <div class="schoolProjectenImg">
-          <img src="img/mastermind.png" alt="mastermind" />
+          <a
+            href="https://andypjee.github.io/project/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="img/mastermind.png" alt="mastermind"
+          /></a>
         </div>
         <div class="schoolProjectenTekst">
           <p class="tekst">
@@ -106,25 +122,49 @@
           </p>
         </div>
       </section>
-
-      <section>
-        <div>je vader</div>
+<!-- contact page -->
+      <section id="contact" class="contact">
+        <div class="contactForm">
+          <form class="contactF">
+            <h2>ContactFormulier</h2>
+            <input
+              class="invoer"
+              type="text"
+              placeholder="Voor naam achter naam"
+            />
+            <input class="invoer" type="text" placeholder="Jou Email adress" />
+            <input
+              class="invoer"
+              type="text"
+              placeholder="Jou Telefoon nummer"
+              !required
+            />
+            <input
+              class="invoer bericht"
+              type="text"
+              placeholder="Jou bericht"
+            />
+            <input class="contactVerzend" type="submit" />
+          </form>
+        </div>
       </section>
     </main>
+    <!-- footer  -->
     <footer>
       <div>
-      <a href="" target="_blank"
-        ><img src="img/linkin.png" alt="linkin" />
-      </a>
-      <a href="" target="_blank"
-            ><img src="img/twitter.png" alt="Twitter" />
-          </a>
-          <a href="" target="_blank"
-            ><img src="img/faceboek.png" alt="Faceboek" />
-          </a>
-          <a href="" target="_blank"
-            ><img src="img/instagram.png" alt="Instagram" />
-          </div>
+        <a href="https://www.linkedin.com/feed/" target="_blank"
+          ><img src="img/linkin.png" alt="linkin" />
+        </a>
+        <a href="https://twitter.com/" target="_blank"
+          ><img src="img/twitter.png" alt="Twitter" />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img src="img/faceboek.png" alt="Faceboek" />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="img/instagram.png" alt="Instagram" />
+        </a>
+      </div>
     </footer>
   </body>
 </html>

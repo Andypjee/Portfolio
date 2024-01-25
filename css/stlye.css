@@ -15,7 +15,6 @@ header {
 }
 nav {
   display: flex;
-  justify-content: left;
   float: right;
   flex-direction: row;
   align-items: center;
@@ -51,7 +50,7 @@ section h1 {
   justify-content: center;
   align-items: center;
 }
-
+/* begin van de landingPage */
 .landingPage {
   display: flex;
   justify-content: center;
@@ -89,6 +88,7 @@ section h1 {
   font-size: 45px;
   text-align: center;
 }
+/* begin van de about */
 .andy {
   height: 250px;
   border-radius: 25px;
@@ -116,6 +116,7 @@ section h1 {
   color: white;
   font-size: 30px;
 }
+/* start van de schoolProjecten */
 .schoolProjecten {
   display: flex;
   flex-direction: row;
@@ -137,6 +138,41 @@ section h1 {
   font-size: 30px;
   color: white;
 }
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 125px;
+  color: white;
+}
+.contactF {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+.contactForm {
+  display: flex;
+  padding: 8vh;
+  border-radius: 8%;
+  background-color: #4c6143;
+}
+.invoer {
+  padding: 1vw;
+  background-color: #516449;
+  margin-top: 3vh;
+  border-radius: 0.7vw;
+}
+.contactVerzend {
+  padding: 15px 0.1px 10px;
+  border-radius: 0.7vw;
+  transition: all 0.2s;
+  margin-top: 2vh;
+  background-color: #516449;
+}
+.bericht {
+  padding: 2vh 2vh 15vh;
+}
 
 /* begin footer */
 footer {
@@ -151,9 +187,4 @@ footer div {
   margin-top: 20px;
   margin-right: 60px;
   gap: 35px;
-}
-@media screen and (max-width: 500px) {
-  nav div {
-    display: none;
-  }
 }
